@@ -1,4 +1,5 @@
-autoDeploy
+WebLogic 8.x 自动部署Shell脚本
 ==========
 
-WebLogic 8.x 自动部署Shell脚本
+脚本是在WebLogic 8.1下测试的，好像9.x之后部署的参数需要更改，没有来得及去做全面测试。
+
