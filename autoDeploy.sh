@@ -10,7 +10,7 @@
 #====================================================================
 
 
-WL_HOME="/home/bea/bea"
+WL_HOME="/root/bea"
 
 TMP_URL=`/sbin/ifconfig | grep "inet addr" | grep -v "127.0.0.1" | awk '{print $2}' | cut -d: -f 2 | head -1`
 

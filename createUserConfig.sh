@@ -9,7 +9,7 @@
 #
 #====================================================================
 
-WL_HOME="/home/bea/bea"
+WL_HOME="/root/bea"
 
 if [ ! -f "${WL_HOME}/weblogic81/server/lib/weblogic.jar" ]; then
 	echo 
