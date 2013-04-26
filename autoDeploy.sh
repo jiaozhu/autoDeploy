@@ -51,7 +51,6 @@ if [ ! -f "${WL_HOME}/weblogic81/server/lib/weblogic.jar" ]; then
 	echo "variable points to the WebLogic installation directory."
 	echo 
 	exit
-# Check that java is where we expect it to be
 fi
 
 
