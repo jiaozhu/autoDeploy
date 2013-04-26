@@ -7,6 +7,8 @@
 # All rights reserved.
 # Distributed under the GNU General Public License, version 3.0.
 #
+# See: https://jiaozhu.org
+#
 #====================================================================
 
 
