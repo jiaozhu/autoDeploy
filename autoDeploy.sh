@@ -7,7 +7,9 @@
 # All rights reserved.
 # Distributed under the GNU General Public License, version 3.0.
 #
-# See: https://jiaozhu.org
+# See: http://jiaozhu.org/archives/15/
+#
+# V 0.1, Date: 2013-04-26
 #
 #====================================================================
 
