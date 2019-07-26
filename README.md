@@ -3,7 +3,7 @@ WebLogic 8.x 自动部署Shell脚本
 
 脚本是在WebLogic 8.1下测试的，好像9.x之后部署的参数需要更改，没有来得及去做全面测试。
 
-##功能说明
+## 功能说明
 
 1. 可以在终端下自动的部署应用，或者删除已经部署在WebLogic上的应用。   
 2. 由于我所在项目中，所需要部署的应用文件很大，所以部署的方式采用了`nostage`，提高部署效率。   
@@ -11,9 +11,10 @@ WebLogic 8.x 自动部署Shell脚本
 4. 支持WebLogic 8.x系列，如果需要在9版本之后使用，只需要修改`deploy`和`undeploy`方法即可。   
 5. 使用前请修改两个脚本的WL_HOME变量，指定到WebLogic的安装目录即可。   
 
-##使用步骤
+## 使用步骤
 
 1. 使用`createUserConfig.sh`生成身份验证文件，此脚本只需要在第一次下载此脚本的时候使用。用法如下
+
 ```bash
 ./createUserConfig.sh t3://127.0.0.1:7001 weblogic weblogic1
 ```
